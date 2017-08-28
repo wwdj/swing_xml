@@ -1,0 +1,24 @@
+<v_layout gravity="horizontal" width="match_parent" height="match_parent">
+    <h_layout width="wrap_content" gravity="vertical">
+        <label text="姓名：" width="60"></label>
+        <text ></text>
+    </h_layout>
+    <h_layout width="wrap_content"  gravity="vertical">
+        <label text="学号：" width="60"></label>
+        <text id="aa"></text>
+    </h_layout>
+    <h_layout width="wrap_content"  gravity="vertical">
+        <label text="性别：" width="60"></label>
+        <text ></text>
+    </h_layout>
+    <h_layout width="wrap_content"  gravity="vertical">
+        <label text="学科：" width="60"></label>
+        <text ></text>
+    </h_layout>
+    <h_layout gravity="vertical">
+        <button id="bb" text="添加" margin_left="10" margin_right="10"></button>
+        <button text="删除" margin_left="10" margin_right="10"></button>
+        <button text="修改" margin_left="10" margin_right="10"></button>
+        <button text="查询" margin_left="10" margin_right="10"></button>
+    </h_layout>
+</v_layout>
